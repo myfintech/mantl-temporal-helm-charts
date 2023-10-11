@@ -135,6 +135,6 @@ entries:
     - https://github.com/temporalio/temporal
     type: application
     urls:
-    - https://myfintech.github.io/mantl-temporal-helm-charts/temporal-0.28.0.tgz
+    - https://github.com/myfintech/mantl-temporal-helm-charts/blob/master/temporal-0.28.0.tgz
     version: 0.28.0
 generated: "2023-10-11T11:47:58.733813-05:00"
