@@ -3,7 +3,7 @@ entries:
   cassandra:
   - apiVersion: v1
     appVersion: 3.11.5
-    created: "2023-10-11T11:38:40.493295-05:00"
+    created: "2023-10-11T11:47:58.742138-05:00"
     description: Apache Cassandra is a free and open-source distributed database management
       system designed to handle large amounts of data across many commodity servers,
       providing high availability with no single point of failure.
@@ -21,12 +21,12 @@ entries:
       name: maorfr
     name: cassandra
     urls:
-    - https://github.com/myfintech/mantl-temporal-helm-charts/charts/cassandra-0.14.3.tgz
+    - https://myfintech.github.io/mantl-temporal-helm-charts/charts/cassandra-0.14.3.tgz
     version: 0.14.3
   elasticsearch:
   - apiVersion: v1
     appVersion: 7.17.3
-    created: "2023-10-11T11:38:40.494466-05:00"
+    created: "2023-10-11T11:47:58.743418-05:00"
     description: Official Elastic helm chart for Elasticsearch
     digest: 437a6bd248482b8eb663a1f63bee6c2f9d00c0d77abe90c5a86ca35631969608
     home: https://github.com/elastic/helm-charts
@@ -38,12 +38,12 @@ entries:
     sources:
     - https://github.com/elastic/elasticsearch
     urls:
-    - https://github.com/myfintech/mantl-temporal-helm-charts/charts/elasticsearch-7.17.3.tgz
+    - https://myfintech.github.io/mantl-temporal-helm-charts/charts/elasticsearch-7.17.3.tgz
     version: 7.17.3
   grafana:
   - apiVersion: v1
     appVersion: 6.7.1
-    created: "2023-10-11T11:38:40.495371-05:00"
+    created: "2023-10-11T11:47:58.744446-05:00"
     description: The leading tool for querying and visualizing time series and metrics.
     digest: 5715ddf4d5a012a7bdb1f4ef0f4d4faebef022ad12f2c9d656fbe8a17a23d5c1
     home: https://grafana.net
@@ -60,12 +60,12 @@ entries:
     sources:
     - https://github.com/grafana/grafana
     urls:
-    - https://github.com/myfintech/mantl-temporal-helm-charts/charts/grafana-5.0.10.tgz
+    - https://myfintech.github.io/mantl-temporal-helm-charts/charts/grafana-5.0.10.tgz
     version: 5.0.10
   prometheus:
   - apiVersion: v2
     appVersion: 2.31.1
-    created: "2023-10-11T11:38:40.498033-05:00"
+    created: "2023-10-11T11:47:58.747224-05:00"
     dependencies:
     - condition: kubeStateMetrics.enabled
       name: kube-state-metrics
@@ -95,12 +95,12 @@ entries:
     - https://github.com/kubernetes/kube-state-metrics
     type: application
     urls:
-    - https://github.com/myfintech/mantl-temporal-helm-charts/charts/prometheus-15.1.3.tgz
+    - https://myfintech.github.io/mantl-temporal-helm-charts/charts/prometheus-15.1.3.tgz
     version: 15.1.3
   temporal:
   - apiVersion: v2
     appVersion: 1.22.0
-    created: "2023-10-11T11:38:40.49248-05:00"
+    created: "2023-10-11T11:47:58.741446-05:00"
     dependencies:
     - condition: cassandra.enabled
       name: cassandra
@@ -135,6 +135,6 @@ entries:
     - https://github.com/temporalio/temporal
     type: application
     urls:
-    - https://github.com/myfintech/mantl-temporal-helm-charts/temporal-0.28.0.tgz
+    - https://myfintech.github.io/mantl-temporal-helm-charts/temporal-0.28.0.tgz
     version: 0.28.0
-generated: "2023-10-11T11:38:40.484125-05:00"
+generated: "2023-10-11T11:47:58.733813-05:00"
