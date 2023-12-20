@@ -18,3 +18,4 @@ jobs:
           repo: helm-charts
           base: master
           head: master
+          auto_approve: true
